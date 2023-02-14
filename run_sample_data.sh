@@ -5,9 +5,9 @@ DB_USER_PW=user0
 
 sqlplus -s $DB_USER_ID/$DB_USER_PW << EOF
 
-# @create_table_toss.sql
-# @create_proc_toss.sql
-# @init_data_toss.sql
+@create_table_toss.sql
+@create_proc_toss.sql
+@init_data_toss.sql
 
 @create_table_table20.sql
 @create_proc_table20.sql
